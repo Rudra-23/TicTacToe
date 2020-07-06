@@ -43,7 +43,7 @@ function turnClick(square) {
 
 function displayDraw() {
     if(result.innerHTML === 'You are O')
-    result.innerHTML ='its a Draw !'
+    result.innerHTML ="it's a Draw !"
 }
 
 function turn(squareID,player) {
