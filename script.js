@@ -18,7 +18,7 @@ const cells =document.querySelectorAll('.cell')
 startGame()
 
 function startGame() {
-    result.innerHTML="";
+    result.innerHTML="You are O";
     board =[0,1,2,3,4,5,6,7,8]
     for(let i=0;i<cells.length;i++) {
         cells[i].innerHTML="";
@@ -42,7 +42,7 @@ function turnClick(square) {
 }
 
 function displayDraw() {
-    if(result.innerHTML === '')
+    if(result.innerHTML === 'You are O')
     result.innerHTML ='its a Draw !'
 }
 
